@@ -24,5 +24,7 @@
 Формула розрахунку:
 -------------------
 1. Вибираємо ``data.id`` усіх процедур, що мають у ``data.status`` слово ``active`` та :ref:`v_DateCreated` у яких менше або дорівнює ``v_LastMonthRightMargin``.
-2. Вибираємо ``data.id`` усіх процедур, що мають у ``data.status='complete'``,  :ref:`v_DateCreated` у яких менше або дорівнює ``v_LastMonthRightMargin`` та ``data.date`` яких більше або дорівнює ``v_LastMonthLeftMargin``
-
+2. Вибираємо ``data.id`` усіх процедур, що мають:
+2.1. ``data.status`` дорівнює ``complete``, ``cancelled``, ``unsuccessful``.
+2.2. :ref:`v_DateCreated` у яких менше або дорівнює ``v_LastMonthRightMargin`` та ``data.date`` яких більше або дорівнює ``v_LastMonthLeftMargin``.
+3. Рахуємо кількість унікальних ``data.id``, знайдених у п.1 та п.2.
