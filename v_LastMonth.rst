@@ -10,8 +10,8 @@ v_LastMonth
     Приклад: *Травень 2020*
     
 **Склад:**
-    Менша межа інтервалу ``v_LastMonthLeftMargin``. Дата у форматі "YYYY-MM-DD".
-    Більша межа інтервалу ``v_LastMonthRightMargin``. Дата у форматі "YYYY-MM-DD".
+    - Менша межа інтервалу ``v_LastMonthLeftMargin``. Дата у форматі "YYYY-MM-DD".
+    - Більша межа інтервалу ``v_LastMonthRightMargin``. Дата у форматі "YYYY-MM-DD".
 
 **Рівень розрахунку:**
     Весь додаток
